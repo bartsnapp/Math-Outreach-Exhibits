@@ -16,7 +16,7 @@ contents={%
 }
 
 
-
+\def\imagetop#1{\vtop{\null\hbox{#1}}}
 
 %% For the context
 %% https://tex.stackexchange.com/questions/86150/torn-page-effect/86151#86151
@@ -35,8 +35,8 @@ contents={%
   \end{center}
   
 \begin{tabular*}{\textwidth}{c @{\extracolsep{\fill}} c}  
-\resizebox{.45\textwidth}{!}{\begin{minipage}[b]{3in}\huge\directions\end{minipage}} &
-  \resizebox{.45\textwidth}{!}{\begin{tikzpicture}[pencildraw/.style={ %
+\imagetop{\resizebox{.45\textwidth}{!}{\begin{minipage}[b]{3in}\huge\directions\end{minipage}}} &
+  \imagetop{\resizebox{.45\textwidth}{!}{\begin{tikzpicture}[pencildraw/.style={ %
     decorate,
     decoration={random steps,segment length=4pt,amplitude=2pt}
     } %
@@ -45,7 +45,7 @@ contents={%
 preaction={fill=black,opacity=.5,transform canvas={xshift=.5cm,yshift=-.5cm}},
 pencildraw,draw,fill=paper,text width=3in,inner sep=.5cm] 
 {\begin{center}\Huge Capt'n Gauss' log \end{center}\vspace{.6cm} {\huge\textit\context}};
-\end{tikzpicture}}
+\end{tikzpicture}}}
 
 \end{tabular*}
 
