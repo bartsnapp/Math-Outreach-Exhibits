@@ -25,12 +25,13 @@ contents={%
 \definecolor{paper}{RGB}{239,227,157}
 
 
+\usepackage{shadowtext}
 
 
 
 \renewcommand{\maketitle}{ %
   \begin{center}
-    \scalebox{8}{\thetitle}
+    \scalebox{8}{\shadowtext{\thetitle}}
   \end{center}
   
 \begin{tabular*}{\textwidth}{c @{\extracolsep{\fill}} c}  
