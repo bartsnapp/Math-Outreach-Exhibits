@@ -8,10 +8,10 @@
 \backgroundsetup{
 scale=1,
 color=black,
-opacity=0.4,
+opacity=0.7,
 angle=0,
 contents={%
-  \includegraphics[height=\paperheight]{mapBackground.jpg}%%https://upload.wikimedia.org/wikipedia/commons/8/81/Nautical_chart_of_the_West_Indies_1797.jpg
+  \includegraphics[width=\paperwidth]{mapBackground.jpg}%%https://upload.wikimedia.org/wikipedia/commons/8/81/Nautical_chart_of_the_West_Indies_1797.jpg
   }%
 }
 
@@ -34,8 +34,8 @@ contents={%
   \end{center}
   
 \begin{tabular*}{\textwidth}{c @{\extracolsep{\fill}} c}  
-\resizebox{4in}{!}{\begin{minipage}[b]{3in}\huge\directions\end{minipage}} &
-  \resizebox{4in}{!}{\begin{tikzpicture}[pencildraw/.style={ %
+\resizebox{.45\textwidth}{!}{\begin{minipage}[b]{3in}\huge\directions\end{minipage}} &
+  \resizebox{.45\textwidth}{!}{\begin{tikzpicture}[pencildraw/.style={ %
     decorate,
     decoration={random steps,segment length=4pt,amplitude=2pt}
     } %
@@ -43,7 +43,7 @@ contents={%
 \node[
 preaction={fill=black,opacity=.5,transform canvas={xshift=.5cm,yshift=-.5cm}},
 pencildraw,draw,fill=paper,text width=3in,inner sep=.5cm] 
-{\begin{center}\Huge Capt'n Gauss' log \end{center}\vspace{.7cm} {\huge\context}};
+{\begin{center}\Huge Capt'n Gauss' log \end{center}\vspace{.6cm} {\huge\context}};
 \end{tikzpicture}}
 
 \end{tabular*}
