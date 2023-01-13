@@ -1,21 +1,10 @@
-%% \NeedsTeXFormat{LaTeX2e}
-%% \ProvidesClass{exhibitclass}[2023/01/12 Document Class for Outreach Exhibits]
-%% \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
-%% \ProcessOptions\relax
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesClass{exhibitclass}[2023/01/12 Document Class for Outreach Exhibits]
+\DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
+\ProcessOptions\relax
 
 
-%% \LoadClass{article}
-
-
-
-
-
-%% so title is accessable
-\makeatletter
-\let\thetitle\@title
-\let\theabstract\@abstract
-\makeatother
-
+\LoadClass{article}
 
 %% Page size
 \usepackage[left=1in,right=1in,top=1in,bottom=.5in,paperwidth=11in,paperheight=17in]{geometry}
