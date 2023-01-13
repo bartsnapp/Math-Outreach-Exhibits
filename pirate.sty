@@ -3,15 +3,17 @@
 \usepackage[T1]{fontenc}
 \raggedright
 
-\usepackage{background}
 
+\usepackage{background}
 \backgroundsetup{
 scale=1,
 color=black,
-opacity=0.7,
+opacity=0.5,
 angle=0,
 contents={%
-  \includegraphics[width=\paperwidth]{mapBackground.jpg}%%https://upload.wikimedia.org/wikipedia/commons/8/81/Nautical_chart_of_the_West_Indies_1797.jpg
+  \\[10in]
+  \hspace{-5 in}\raisebox{10in}{\includegraphics[scale=.5]{mapBackground.jpg}}
+  %%https://commons.wikimedia.org/wiki/File:1683_Mortier_Map_of_North_America,_the_West_Indies,_and_the_Atlantic_Ocean_-_Geographicus_-_Atlantique-mortier-1693.jpg
   }%
 }
 
@@ -39,34 +41,44 @@ contents={%
 \vspace{1cm}
   
 \begin{tabular*}{\textwidth}{c @{\extracolsep{\fill}} c}  
-  %\imagetop{\resizebox{.45\textwidth}{!}{\begin{minipage}[b]{3in}\huge\directions\end{minipage}}}
-  \imagetop{\resizebox{.45\textwidth}{!}{\begin{tikzpicture}[pencildraw/.style={ %%% https://tex.stackexchange.com/questions/86150/torn-page-effect/86151#86151
-    decorate,
-    decoration={random steps,segment length=4pt,amplitude=2pt}
-    } %
-]
-\node[preaction={fill=white,opacity=.5}] 
-     {
-       \begin{minipage}{3in}\huge\directions\end{minipage}
-     };
-\end{tikzpicture}}}
+  \imagetop{\resizebox{.45\textwidth}{!}{
+      \begin{tikzpicture}
+        \node[preaction={fill=white,opacity=.5}] 
+             {
+               \begin{minipage}{3in}\huge\directions\end{minipage}
+             };
+  \end{tikzpicture}}}
   &
   \imagetop{\resizebox{.45\textwidth}{!}{\begin{tikzpicture}[pencildraw/.style={ %%% https://tex.stackexchange.com/questions/86150/torn-page-effect/86151#86151
-    decorate,
-    decoration={random steps,segment length=4pt,amplitude=2pt}
-    } %
-]
-\node[preaction={fill=black,opacity=.5,transform canvas={xshift=.5cm,yshift=-.5cm}},pencildraw,draw,fill=paper,text width=3in,inner sep=.5cm]
-     {
-       \begin{center}\Huge Capt'n Gauss' log \end{center}\vspace{.6cm} {\huge\textit\context}
-     };
-\end{tikzpicture}}}
-
+            decorate,
+            decoration={random steps,segment length=4pt,amplitude=2pt}
+          } %
+        ]
+        \node[preaction={fill=black,opacity=.5,transform canvas={xshift=.5cm,yshift=-.5cm}},pencildraw,draw,fill=paper,text width=3in,inner sep=.5cm]
+             {
+               \begin{center}\Huge Capt'n Gauss' log \end{center}\vspace{.6cm} {\huge\textit\context}
+             };
+  \end{tikzpicture}}}
+  
 \end{tabular*}
 
 \vfill
 
-\includegraphics[width=2in]{bammLogo.png}\hfill\includegraphics[width=3in]{logoPirate.png}
+
+\begin{tikzpicture}
+  \node[preaction={fill=white,opacity=.5}] 
+             {
+               \begin{minipage}{\textwidth}\huge\example\end{minipage}
+             };
+  \end{tikzpicture}
+
+
+
+
+
+\vfill
+
+\includegraphics[width=2in]{bammLogo.png}\hfill QR CODE \hfill \includegraphics[width=3in]{logoPirate.png}
 
 
 }
