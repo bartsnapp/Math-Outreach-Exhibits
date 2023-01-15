@@ -9,7 +9,7 @@
 - [ ] Tangram ocean
 - [ ] Pirates of the Future
 - [ ] Number Munchers
-- [ ] [Pirate Pizza](./pizza)
+- [x] [Pirate Pizza](./pizza) Drafted by Snapp - (needs worksheets)
 - [ ] Nim–
 - [ ] “What Be Ye Craving?”
 - [ ] Count me Dubloons
@@ -17,10 +17,10 @@
 - [ ] Pirates Crossing Conundrum
 - [ ] Pirates Logic
 - [ ] Pirate Map Mazes
-- [ ] [Pirates’ Plunder](./towersOfHanoi)
+- [ ] [Pirates’ Plunder](./towersOfHanoi) Fowler
 - [ ] Battleship
 - [ ] Pirate Chains
-- [ ] [Dead Reckoning](./deadRecoking)
+- [/] [Dead Reckoning](./deadRecoking) Snapp is working on it
 - [ ] “Hop along, matey!”
 - [ ] Welcome Table 
 - [ ] Library table
