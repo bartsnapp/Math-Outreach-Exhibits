@@ -15,8 +15,8 @@
 \usepackage{background}
 \backgroundsetup{
 scale=1,
-color=black,
-opacity=0.5,
+color=white,
+opacity=0.2,
 angle=0,
 contents={%
   \\[10in]
@@ -49,7 +49,7 @@ contents={%
   \shadowoffset{.5pt} %% See: https://tex.stackexchange.com/questions/159463/fancy-styled-borders-in-latex
   \shadowcolor{black!50!white}
   \begin{center}
-    \resizebox{\textwidth}{!}{\shadowtext{\thetitle}}
+    \resizebox{\textwidth}{!}{\shadowtext{\scshape\thetitle}}
   \end{center}
   
 \vspace{1cm}
@@ -57,7 +57,7 @@ contents={%
 \begin{tabular*}{\textwidth}{c @{\extracolsep{\fill}} c}  
   \imagetop{\resizebox{.45\textwidth}{!}{
       \begin{tikzpicture}
-        \node[preaction={fill=white,opacity=.5}] 
+        \node[preaction={fill=white,opacity=0},inner sep=.5cm] 
              {
                \begin{minipage}{3in}\huge\directions\end{minipage}
              };
@@ -80,7 +80,7 @@ contents={%
 
 
 \begin{tikzpicture}
-  \node[preaction={fill=white,opacity=.5}] 
+  \node[preaction={fill=white,opacity=0},inner sep=.5cm] 
              {
                \begin{minipage}{\textwidth}\huge\example\end{minipage}
              };
@@ -94,12 +94,11 @@ contents={%
 
 \includegraphics[width=2in]{bammLogo.png}
 \hfill
+\includegraphics[width=3in]{logoPirate.png}
+\hfill
 \raisebox{2cm}{\begin{tabular}{c}
 \huge How's this math? \\
 \qrcode[height=1.5in]{\mathConnections}
 \end{tabular}}
-\hfill
-\includegraphics[width=3in]{logoPirate.png}
-
 
 }
