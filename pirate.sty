@@ -3,6 +3,8 @@
 \usepackage[T1]{fontenc}
 \raggedright
 
+\usepackage[LGRgreek]{mathastext}
+
 
 %% so title is accessable
 \makeatletter
@@ -33,6 +35,12 @@ contents={%
 \definecolor{paper}{RGB}{239,227,157}
 
 
+%% QR code
+\usepackage{qrcode}
+
+
+
+%% For bold-ish title
 \usepackage{shadowtext}
 
 
@@ -84,7 +92,14 @@ contents={%
 
 \vfill
 
-\includegraphics[width=2in]{bammLogo.png}\hfill \mathConnections \hfill \includegraphics[width=3in]{logoPirate.png}
+\includegraphics[width=2in]{bammLogo.png}
+\hfill
+\raisebox{2cm}{\begin{tabular}{c}
+\huge How's this math? \\
+\qrcode[height=1.5in]{\mathConnections}
+\end{tabular}}
+\hfill
+\includegraphics[width=3in]{logoPirate.png}
 
 
 }
