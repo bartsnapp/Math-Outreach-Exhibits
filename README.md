@@ -22,5 +22,5 @@
 - [ ] Pirate Chains
 - [/] [Dead Reckoning](./deadRecoking) Snapp is working on it
 - [ ] “Hop along, matey!”
-- [ ] [Welcome Table](./welcomeTable)
+- [X] [Welcome Table](./welcomeTable)
 - [ ] Library table
