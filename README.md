@@ -3,7 +3,7 @@
 - [ ] Guessin’ me Loot
 - [ ] Slide (off the plank) Rule
 - [ ] X marks the spot
-- [ ] [Look at me Gems](./eulerCharacteristic) need worksheet
+- [x] [Look at me Gems](./eulerCharacteristic) (needs worksheets)
 - [ ] Pirates Place value
 - [ ] Pi-rate walk
 - [ ] Tangram ocean
