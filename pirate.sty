@@ -12,6 +12,7 @@
 \let\theabstract\@abstract
 \makeatother
 
+
 \usepackage{background}
 \backgroundsetup{
 scale=1,
@@ -19,8 +20,7 @@ color=white,
 opacity=0.2,
 angle=0,
 contents={%
-  \\[10in]
-  \hspace{-5 in}\raisebox{10in}{\includegraphics[scale=.5]{mapBackground.jpg}}
+  \hspace{0 in}\raisebox{0 in}{\includegraphics[scale=.5]{mapBackground.jpg}}
   %%https://commons.wikimedia.org/wiki/File:1683_Mortier_Map_of_North_America,_the_West_Indies,_and_the_Atlantic_Ocean_-_Geographicus_-_Atlantique-mortier-1693.jpg
   }%
 }
@@ -55,24 +55,23 @@ contents={%
 \vspace{1cm}
   
 \begin{tabular*}{\textwidth}{c @{\extracolsep{\fill}} c}  
-  \imagetop{\resizebox{.45\textwidth}{!}{
-      \begin{tikzpicture}
+  \imagetop{\begin{tikzpicture}
         \node[preaction={fill=white,opacity=0},inner sep=.5cm] 
              {
-               \begin{minipage}{3in}\huge\directions\end{minipage}
+               \begin{minipage}{.45\textwidth}\Huge\directions\end{minipage}
              };
-  \end{tikzpicture}}}
+  \end{tikzpicture}}
   &
-  \imagetop{\resizebox{.45\textwidth}{!}{\begin{tikzpicture}[pencildraw/.style={ %%% https://tex.stackexchange.com/questions/86150/torn-page-effect/86151#86151
+  \imagetop{\begin{tikzpicture}[pencildraw/.style={ %%% https://tex.stackexchange.com/questions/86150/torn-page-effect/86151#86151
             decorate,
-            decoration={random steps,segment length=4pt,amplitude=2pt}
+            decoration={random steps,segment length=8pt,amplitude=4pt}
           } %
         ]
-        \node[preaction={fill=black,opacity=.5,transform canvas={xshift=.5cm,yshift=-.5cm}},pencildraw,draw,fill=paper,text width=3in,inner sep=.5cm]
+        \node[preaction={fill=black,opacity=.5,transform canvas={xshift=.5cm,yshift=-.5cm}},pencildraw,draw,fill=paper,text width=.45\textwidth,inner sep=.5cm]
              {
-               \begin{center}\Huge Capt'n \ \ Gauss' \ \  log \end{center}\vspace{.6cm} {\huge\textit\context}
+               \begin{center}\HUGE Capt'n \ \ Gauss' \ \  log \end{center}\vspace{.6cm} {\Huge\textit\context}
              };
-  \end{tikzpicture}}}
+  \end{tikzpicture}}
   
 \end{tabular*}
 
@@ -82,7 +81,7 @@ contents={%
 \begin{tikzpicture}
   \node[preaction={fill=white,opacity=0},inner sep=.5cm] 
              {
-               \begin{minipage}{\textwidth}\huge\example\end{minipage}
+               \begin{minipage}{\textwidth}\Huge\example\end{minipage}
              };
   \end{tikzpicture}
 
