@@ -3,7 +3,7 @@
 - [ ] Guessin’ me Loot
 - [ ] Slide (off the plank) Rule
 - [ ] X marks the spot
-- [ ] [Look at me Gems](./eulerCharacteristic)
+- [ ] [Look at me Gems](./eulerCharacteristic) need worksheet
 - [ ] Pirates Place value
 - [ ] Pi-rate walk
 - [ ] Tangram ocean
@@ -17,10 +17,10 @@
 - [ ] Pirates Crossing Conundrum
 - [ ] Pirates Logic
 - [ ] Pirate Map Mazes
-- [ ] [Pirates’ Plunder](./towersOfHanoi) Fowler
+- [X] [Pirates’ Plunder](./towersOfHanoi)
 - [ ] Battleship
 - [ ] Pirate Chains
 - [/] [Dead Reckoning](./deadRecoking) Snapp is working on it
 - [ ] “Hop along, matey!”
-- [ ] Welcome Table 
+- [ ] [Welcome Table](./welcomeTable)
 - [ ] Library table
