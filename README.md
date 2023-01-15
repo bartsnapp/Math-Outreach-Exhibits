@@ -8,7 +8,7 @@
 - [ ] Pi-rate walk
 - [ ] Tangram ocean
 - [ ] Pirates of the Future
-- [ ] Number Munchers
+- [X] [Number Munchers](./videoGames)
 - [x] [Pirate Pizza](./pizza) Drafted by Snapp - (needs worksheets)
 - [X] [Nim](./nim)
 - [ ] “What Be Ye Craving?”
