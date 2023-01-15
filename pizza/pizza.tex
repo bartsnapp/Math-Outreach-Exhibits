@@ -9,14 +9,14 @@
 
 
 \begin{context}
-  Ahoy me Mathys!
+  Ahoy me Mathys! At ye port of Pythagoras, be a Pizzaira that will
+  make a pizza with arrangements of toppings to befudle the mind.
 
 
-  At ye port of Pythagoras, be a Pizzaira that will make a pizza with
-  any combo of toppings.
+  \vspace{1cm}
 
-
-  Help me feed me crew, and find the treasure!
+  
+  Help me feed me crew, and I can help ye find me treasure!
 \end{context}
 
 
@@ -32,11 +32,23 @@
 
 
 \begin{example}
-  $1$ out of $3$ of my pirates want peppers and $2$ out of $3$ want
-  anchovies. How do I feed my crew of $12$?
+  $1$ out of $3$ of my pirates want peppers
+
+  $2$ out of $3$ want anchovies.
+
+
+  How do I feed my crew of $12$?
 \begin{center}
   \begin{tikzpicture}
-  \draw[step=1.0in,black,ultra thick] (0,0) grid (4in,3in);
+    \draw[fill=red!50!white,ultra thick] (0,9.5) rectangle (.5,10);
+    \draw[fill=blue!50!white,ultra thick] (0,8.5) rectangle (.5,9);
+    \node[right] at (.5,9.8) {Pirates who want peppers};
+    \node[right] at (.5,8.8) {Pirates who want anchovies};
+
+    \draw[fill=red!50!white] (0,0) rectangle (1in,3in);
+    \draw[fill=blue!50!white] (1in,0) rectangle (4in,3in);
+    \draw[step=1.0in,black,ultra thick] (0,0) grid (4in,3in);
+    
 \end{tikzpicture}
 \end{center}
 \end{example}
@@ -44,6 +56,6 @@
 
 
 \begin{mathConnections}
-  QR CODE?
+  https://bartsnapp.github.io/Math-Outreach-Exhibits/pizza/
 \end{mathConnections}
 \end{document}
