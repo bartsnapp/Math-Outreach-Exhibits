@@ -1,0 +1,3 @@
+# Video Games
+
+Video games can be useful for learning mathematics by providing a fun and engaging way to practice problem-solving skills. For example, games that involve puzzles or logic challenges can help players develop persistence and perseverance, as they must continue to experiment with different strategies and approaches in order to progress through the game. Additionally, many games include mathematical concepts such as counting, addition, subtraction, and geometry, which can help players develop a deeper understanding of these concepts. Furthermore, video games can also provide a sense of accomplishment and positive feedback, which can help to build confidence and motivation in learning math.
