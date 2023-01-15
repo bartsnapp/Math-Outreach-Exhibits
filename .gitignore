@@ -1,5 +1,4 @@
-*.sty~
 *.aux
 *.log
 *.pdf
-*.tex~
+*~
