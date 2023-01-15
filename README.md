@@ -1,1 +1,26 @@
 # Math-Outreach-Exhibits
+
+- Guessin’ me Loot
+- Slide (off the plank) Rule
+- X marks the spot
+- Look at me Gems
+- Pirates Place value
+- Pi-rate walk
+- Tangram ocean
+- Pirates of the Future
+- Number Munchers
+- [Pirate Pizza](./pizza)
+- Nim–
+- “What Be Ye Craving?”
+- Count me Dubloons
+- Carousing with Pirates
+- Pirates Crossing Conundrum
+- Pirates Logic
+- Pirate Map Mazes
+- [Pirates’ Plunder](./towersOfHanoi)
+- Battleship
+- Pirate Chains
+- [Dead Reckoning](./deadRecoking)
+- “Hop along, matey!”
+- Welcome Table 
+- Library table
