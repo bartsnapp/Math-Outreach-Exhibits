@@ -16,7 +16,7 @@
 - [ ] Carousing with Pirates
 - [ ] Pirates Crossing Conundrum
 - [ ] Pirates Logic
-- [ ] Pirate Map Mazes
+- [X] [Pirate Map Mazes](./mazes) - need worksheets
 - [X] [Pirates’ Plunder](./towersOfHanoi)
 - [ ] Battleship
 - [ ] Pirate Chains
