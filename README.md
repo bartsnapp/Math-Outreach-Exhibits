@@ -10,7 +10,7 @@
 - [ ] Pirates of the Future
 - [ ] Number Munchers
 - [x] [Pirate Pizza](./pizza) Drafted by Snapp - (needs worksheets)
-- [ ] Nim–
+- [X] [Nim](./nim)
 - [ ] “What Be Ye Craving?”
 - [ ] Count me Dubloons
 - [ ] Carousing with Pirates
