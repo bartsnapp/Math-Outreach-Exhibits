@@ -10,14 +10,14 @@
 - [ ] Pirates of the Future
 - [X] [Number Munchers](./videoGames)
 - [x] [Pirate Pizza](./pizza) Drafted by Snapp - (needs worksheets)
-- [X] [Nim](./nim)
+- [X] [Nim](./nim) Just needs pieces from math outreach.
 - [ ] “What Be Ye Craving?”
 - [ ] Count me Dubloons
 - [ ] Carousing with Pirates
 - [ ] Pirates Crossing Conundrum
 - [ ] Pirates Logic
 - [X] [Pirate Map Mazes](./mazes) - need worksheets
-- [X] [Pirates’ Plunder](./towersOfHanoi)
+- [X] [Pirates’ Plunder](./towersOfHanoi) - needs manipulatives (in outreach)
 - [ ] Battleship
 - [ ] Pirate Chains
 - [x] [Queens Room](./chess) We have pieces and boards in math outreach
