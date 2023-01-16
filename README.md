@@ -3,7 +3,7 @@
 - [ ] Guessin’ me Loot  (with a timer, we could see how many cards kids could total in 30 sec)
 - [ ] Slide (off the plank) Rule
 - [ ] X marks the spot
-- [x] [Look at me Gems](./eulerCharacteristic) (needs worksheets)
+- [x] [Look at me Gems](./eulerCharacteristic) (needs worksheets, polyhedra from math outreach)
 - [ ] Pirates Place value
 - [ ] Pi-rate walk
 - [ ] Tangram ocean (in our small sets, the large isoceles right triangle has a leg of 7cm, and the small square has an edge of 3.5cm)
@@ -20,6 +20,7 @@
 - [X] [Pirates’ Plunder](./towersOfHanoi)
 - [ ] Battleship
 - [ ] Pirate Chains
+- [x] [Queens Room](./chess) We have pieces and boards in math outreach
 - [/] [Dead Reckoning](./deadRecoking) Snapp is working on it
 - [ ] “Hop along, matey!”
 - [X] [Welcome Table](./welcomeTable)
