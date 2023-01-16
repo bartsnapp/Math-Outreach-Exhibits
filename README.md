@@ -1,6 +1,6 @@
 # Math-Outreach-Exhibits
 
-- [ ] Guessin’ me Loot
+- [ ] Guessin’ me Loot  (with a timer, we could see how many cards kids could total in 30 sec)
 - [ ] Slide (off the plank) Rule
 - [ ] X marks the spot
 - [x] [Look at me Gems](./eulerCharacteristic) (needs worksheets)
