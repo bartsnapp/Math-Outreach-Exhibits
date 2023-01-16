@@ -6,7 +6,7 @@
 - [x] [Look at me Gems](./eulerCharacteristic) (needs worksheets)
 - [ ] Pirates Place value
 - [ ] Pi-rate walk
-- [ ] Tangram ocean
+- [ ] Tangram ocean (in our small sets, the large isoceles right triangle has a leg of 7cm, and the small square has an edge of 3.5cm)
 - [ ] Pirates of the Future
 - [X] [Number Munchers](./videoGames)
 - [x] [Pirate Pizza](./pizza) Drafted by Snapp - (needs worksheets)
