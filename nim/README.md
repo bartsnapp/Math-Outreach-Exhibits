@@ -20,3 +20,6 @@ the study of mathematical models of conflict and cooperation between
 intelligent rational decision-makers. Game theory is used in many
 fields, including economics, political science, and
 psychology. 
+
+
+For more information, see: [Nim](https://en.wikipedia.org/wiki/Nim)
