@@ -18,3 +18,6 @@ important skill when learning math. Math can be challenging and
 solving mazes can be too, but by working through the challenges of a
 maze, individuals can build up their persistence and determination to
 keep trying when faced with difficult problems.
+
+
+For more information, see: [Mathematical Cut-and-Paste: An Introduction to the Topology of Surfaces](https://mathcircle.berkeley.edu/sites/default/files/handouts/2018/topology_of_surfaces_2018_0.pdf)
