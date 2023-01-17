@@ -1,18 +1,17 @@
 # Math-Outreach-Exhibits
 
-- [ ] Guessin’ me Loot  (with a timer, we could see how many cards kids could total in 30 sec)
 - [ ] Slide (off the plank) Rule
 - [ ] X marks the spot
 - [x] [Look at me Gems](./eulerCharacteristic) (needs worksheets, polyhedra from math outreach)
 - [ ] Pirates Place value
-- [ ] [Pi-rate walk](./pi-rateWalk)
+- [x] [Pi-rate walk](./pi-rateWalk)
 - [ ] Tangram ocean (in our small sets, the large isoceles right triangle has a leg of 7cm, and the small square has an edge of 3.5cm)
 - [ ] Pirates of the Future
 - [X] [Number Munchers](./videoGames)
 - [x] [Pirate Pizza](./pizza) Drafted by Snapp - (needs worksheets)
 - [X] [Nim](./nim) Just needs pieces from math outreach.
 - [ ] “What Be Ye Craving?”
-- [x] [Count me Dubloons](./count) (needs cards)
+- [x] [Count me Dubloons](./count) (Guessin’ me Loot, needs cards)
 - [ ] Carousing with Pirates
 - [ ] Pirates Crossing Conundrum
 - [ ] Pirates Logic
