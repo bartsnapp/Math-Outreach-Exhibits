@@ -11,9 +11,9 @@ Later we learn about *rational* numbers. These are numbers that are all whole nu
 π is not a rational number. 
 
 
-We have to get used to the fact that there are different types of numbers
+We have to get used to the fact that there are different types of numbers, π is what's called a *transcendental* number. This means when written as a decimal, π's digits neither terminate nor repeat. 
 
-Digits of pi
+π =3.141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117068... and never stops
 
 
-For more information, see: [Rectangular Fraction Model](https://hvparent.com/common-core-math-part-four)
+For more information, see: [π](https://en.wikipedia.org/wiki/Pi)
