@@ -50,6 +50,53 @@ contents={%
 
 
 
+%% for tangrams
+%\url{https://tex.stackexchange.com/q/407449/86}
+\tikzset{
+  big triangle/.pic={
+  \path[pic actions] (0,0) -- (2,0) -- (2,2) -- cycle;
+  },
+  medium triangle/.pic={
+    \path[pic actions] (0,0) -- (1,1) -- (2,0) -- cycle;  
+  },
+  square/.pic={
+    \path[pic actions] (0,0) -- (1,0) -- (1,1) -- (0,1) -- cycle;
+  },
+  small triangle/.pic={
+    \path[pic actions] (0,0) -- (1,0) -- (1,1) -- cycle;
+  },
+  parallelogram/.pic={
+    \path[pic actions] (0,0) -- (1,0) -- (2,1) -- (1,1) -- cycle;
+  }
+}
+
+\tikzset{
+  tangram puzzle/.style={
+    fill=black,
+    draw=black
+  },
+  tangram solution/.style={
+      fill=black,
+    draw=white,
+    line width=1mm
+  },   
+  tangram/.style={
+  transform shape,
+    %tangram puzzle
+    tangram solution
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 %% QR code
 \usepackage{qrcode}
 

@@ -4,15 +4,24 @@
 
 \input{../pirate.sty}
 
+
+
+
 \begin{document}
 
 
 
 \begin{context}
-  Ahoy!
+  Argg! We be lost in the Tangram Sea!
 
-  Give our Mathys a mathematical context to explore, from the seven
-  seas  so pirates come for more!
+
+  Help an old sea dog like me, see through the fog,
+
+
+  And unlock the secret of
+
+
+  Tangram Sea!
 \end{context}
 
 
@@ -32,6 +41,31 @@
 \begin{example}
   An example of what the student is actually supposed to do is given
   here.
+
+
+
+\begin{tikzpicture}[scale=1]
+\pic[tangram] at (0,0) {big triangle};
+\pic[tangram,rotate=-90] at (2,2) {big triangle};
+\pic[tangram,rotate=-90] at (2,0) {square};
+\pic[tangram,rotate=180] at (4,0) {small triangle};
+\pic[tangram,rotate=90] at (2,-1) {small triangle};
+\pic[tangram,xscale=-1] at (2,-1) {parallelogram};
+\pic[tangram,rotate=180] at (3,-1) {medium triangle};
+\end{tikzpicture}
+
+
+\begin{tikzpicture}[scale=1]
+\path (0,-1) pic[tangram] {small triangle}
+++(1,0) pic[tangram] {square}
+++(1,1) pic[tangram,rotate=-45,yscale=-1] {big triangle}
+++(-45:2) pic[tangram,rotate=-135] {big triangle}
++({-sqrt(2)},0) pic[tangram,rotate=-135] {parallelogram}
+++(-2,{-2*sqrt(2)}) pic[tangram] {medium triangle}
+++(2,1) pic[tangram,rotate=-90] {small triangle}
+;
+\end{tikzpicture}
+
 \end{example}
 
 
