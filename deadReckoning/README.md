@@ -1,3 +1,3 @@
-# Math-Outreach-Exhibits
+# Dead Reckoning
 
 This is for the template.
