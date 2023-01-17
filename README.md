@@ -5,7 +5,7 @@
 - [ ] X marks the spot
 - [x] [Look at me Gems](./eulerCharacteristic) (needs worksheets, polyhedra from math outreach)
 - [ ] Pirates Place value
-- [ ] Pi-rate walk
+- [ ] [Pi-rate walk](./pi-rateWalk)
 - [ ] Tangram ocean (in our small sets, the large isoceles right triangle has a leg of 7cm, and the small square has an edge of 3.5cm)
 - [ ] Pirates of the Future
 - [X] [Number Munchers](./videoGames)
