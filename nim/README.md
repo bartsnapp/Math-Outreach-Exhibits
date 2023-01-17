@@ -22,4 +22,8 @@ fields, including economics, political science, and
 psychology. 
 
 
-For more information, see: [Nim](https://en.wikipedia.org/wiki/Nim)
+For more information, see: 
+
+[Nim](https://en.wikipedia.org/wiki/Nim)
+
+[How to win at the Nim game](https://www.archimedes-lab.org/How_to_Solve/Win_at_Nim.html#:~:text=To%20win%20at%20Nim%2Dgame,error%20in%20order%20to%20win)
