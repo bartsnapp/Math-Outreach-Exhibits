@@ -11,7 +11,7 @@
 \begin{context} Today I challenge
 
 
- YOU
+ \qquad \qquad YOU
 
 
  my worthy opponent
@@ -21,14 +21,14 @@
  to a game of
 
 
- PIRATE WITS!
+ \qquad PIRATE WITS!
 
   
 
  Today is a
 
 
- GOOD DAY FOR MATH.
+ \quad GOOD DAY FOR MATH.
 
 
  It will be a
@@ -65,11 +65,11 @@
 \begin{axis}[tick style={draw=none},axis line style={draw=none},ticks=none,width=.8\textwidth,height=2in,clip = false
   ]
   \addplot[mark options={black},fill=black,clip=true, clip marker paths=true,
-        only marks, mark size = 4pt,mark=*, samples=10,
+        only marks, mark size = 4pt,mark=*, samples=9,
   ]({2*rand},{2*rand});
-  \node[below] at (axis cs:0,-2) {\begin{minipage}{2.5in}You may take \\ between 1 and 10 \\ from this pile\end{minipage}};
+  \node[below] at (axis cs:0,-2) {\begin{minipage}{2.5in}You may take \\ between 1 and 9 \\ from this pile\end{minipage}};
   \node at (axis cs:4,-2) {\scalebox{2}{or}};
-  \node[below] at (axis cs: 8, -2) {\begin{minipage}{2.5in}You may take \\ between 1 and 7 \\ from this pile\end{minipage}};
+  \node[below] at (axis cs: 9, -2) {\begin{minipage}{2.5in}You may take \\ between 1 and 7 \\ from this pile\end{minipage}};
   \addplot[mark options={black},fill=black,clip=true, clip marker paths=true,
         only marks, mark size = 4pt,mark=*, samples=7,point meta=int(y/1000)             
   ]({2*rand+8},{2*rand});
