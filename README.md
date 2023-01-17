@@ -12,7 +12,7 @@
 - [x] [Pirate Pizza](./pizza) Drafted by Snapp - (needs worksheets)
 - [X] [Nim](./nim) Just needs pieces from math outreach.
 - [ ] “What Be Ye Craving?”
-- [ ] Count me Dubloons
+- [ ] [Count me Dubloons](./count)
 - [ ] Carousing with Pirates
 - [ ] Pirates Crossing Conundrum
 - [ ] Pirates Logic
