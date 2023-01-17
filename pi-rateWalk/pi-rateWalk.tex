@@ -24,14 +24,30 @@
   \[
   1,2,3,4,5,6,7,8,9,10
   \]
-  \scalebox{3}{$\pi$}
+  This is pi %\raisebox{-.3em}{\scalebox{2}{$\pi$}}
+
+  $\pi=3.141592653\dots$
 \end{directions}
 
 
 
-\begin{example}
-  An example of what the student is actually supposed to do is given
-  here.
+\begin{example}\HUGE
+  \begin{center}
+  \begin{tikzpicture}[scale=2.5]
+    \node at ({2*sin(0*360/10)},{2*cos(0*360/10)}) {3.};
+    \node at ({2*sin(1*360/10)},{2*cos(1*360/10)}) {1};
+    \node at ({2*sin(2*360/10)},{2*cos(2*360/10)}) {4 };
+    \node at ({2*sin(3*360/10)},{2*cos(3*360/10)}) {1 };
+    \node at ({2*sin(4*360/10)},{2*cos(4*360/10)}) {5 };
+    \node at ({2*sin(5*360/10)},{2*cos(5*360/10)}) {9 };
+    \node at ({2*sin(6*360/10)},{2*cos(6*360/10)}) {2 };
+    \node at ({2*sin(7*360/10)},{2*cos(7*360/10)}) {6 };
+    \node at ({2*sin(8*360/10)},{2*cos(8*360/10)}) {5 };
+    \node at ({2*sin(9*360/10)},{2*cos(9*360/10)}) {3\dots};
+
+    %\node at (0,0) {\scalebox{3}{$\pi$}};
+  \end{tikzpicture}
+  \end{center}
 \end{example}
 
 
