@@ -4,12 +4,12 @@ jobs:
   build_latex:
     runs-on: ubuntu-latest
     steps:
-      - name: Compile LaTeX document
-      - uses: xu-cheng/latex-action@master
+- name: Compile LaTeX document
+      	uses: xu-cheng/latex-action@master
          with:
          root_file: |
           pizza/pizza.tex
-           count/count.tex
+	  count/count.tex
 - name: Upload PDF file 
         uses: actions/upload-artifact@v3
         with:
