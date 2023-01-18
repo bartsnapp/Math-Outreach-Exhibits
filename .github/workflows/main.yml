@@ -10,3 +10,8 @@ jobs:
         uses: dante-ev/latex-action@latest
         with:
           root_file: pizza/pizza.tex
+- name: Upload PDF file 
+        uses: actions/upload-artifact@v3
+        with:
+          name: PDF
+          path: pizza/pizza.pdf
