@@ -4,12 +4,12 @@ jobs:
   build_latex:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Git repository
-        uses: actions/checkout@v2
       - name: Compile LaTeX document
-        uses: dante-ev/latex-action@latest
-        with:
-          root_file: pizza/pizza.tex
+      - uses: xu-cheng/latex-action@master
+         with:
+         root_file: |
+          pizza/pizza.tex
+           count/count.tex
 - name: Upload PDF file 
         uses: actions/upload-artifact@v3
         with:
