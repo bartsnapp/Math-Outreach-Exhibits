@@ -1,19 +1,31 @@
-name: Build LaTeX document
-on: [push]
+name: Build LaTeX and deploy on GH Releases
+on:
+  push:
+
 jobs:
-  build_latex:
+  Build-LaTeX:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Git repository
-        uses: actions/checkout@v3
-      - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
-          root_file: |
-	  ./pizza/pizza.tex
-      - name: Upload PDF file
-        uses: actions/upload-artifact@v3
-        with:
-          name: PDF
-          path: pizza.pdf
-
+          fetch-depth: 0
+      - name: Fetch tags
+        shell: bash
+        run: git fetch --tags -f
+      - name: Compile LaTeX
+        # PICK A FIXED VERSION! I do work on master sometimes!
+        uses: DanySK/compile-latex-action@master
+      - name: Autotag
+        uses: DanySK/semver-autotag-action@master
+      - name: Deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG=$(git describe --tags --exact-match HEAD)
+          hub release create -m "$(git tag -l --format='%(contents)' "$TAG")" "$TAG" || true
+          for file in $LATEX_SUCCESSES; do
+            pdf="${file%.*}.pdf"
+            echo "Delivering file $pdf"
+            gh release upload "$TAG" "$pdf" --clobber
+          done
