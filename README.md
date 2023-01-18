@@ -22,5 +22,6 @@
 - [x] [Queens Room](./chess) We have pieces and boards in math outreach
 - [/] [Dead Reckoning](./deadRecoking) Snapp is working on it
 - [ ] “Hop along, matey!”
+- [ ] [Pirate Dice](./dice) Need dice and cups!
 - [X] [Welcome Table](./welcomeTable)
 - [ ] Library table
