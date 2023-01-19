@@ -24,4 +24,4 @@
 - [ ] “Hop along, matey!”
 - [ ] [Pirate Dice](./dice) Need dice and cups!
 - [X] [Welcome Table](./welcomeTable)
-- [ ] Library table
+- [X] [Library table](./libraryTable)
