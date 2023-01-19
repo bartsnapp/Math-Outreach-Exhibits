@@ -4,12 +4,7 @@
 
 \input{../pirate.sty}
 
-
-
-
 \begin{document}
-
-
 
 \begin{context}
   Argg! We be lost in the Tangram Sea!
@@ -24,26 +19,12 @@
   Tangram Sea!
 \end{context}
 
-
-
-\begin{directions}
-  Here we give directions for what they are to do in real-world,
-  present day, terms.
-
-  \[
-  1,2,3,4,5,6,7,8,9,10
-  \]
-  \scalebox{3}{$\pi$}
+\begin{directions} To complete a tangram puzzle, you should use all
+the pieces to build the desired silouette.  Pieces should be laid flat but they may be rotated or
+flipped.  Pieces may not overlap.
 \end{directions}
 
-
-
 \begin{example}
-  An example of what the student is actually supposed to do is given
-  here.
-
-
-
 \begin{tikzpicture}[scale=1]
 \pic[tangram] at (0,0) {big triangle};
 \pic[tangram,rotate=-90] at (2,2) {big triangle};
@@ -53,8 +34,9 @@
 \pic[tangram,xscale=-1] at (2,-1) {parallelogram};
 \pic[tangram,rotate=180] at (3,-1) {medium triangle};
 \end{tikzpicture}
+\raisebox{1in}{A square is the classic tangram puzzle.}
 
-
+\hfill \raisebox{0.5in}{But other shapes are possible!}
 \begin{tikzpicture}[scale=1]
 \path (0,-1) pic[tangram] {small triangle}
 ++(1,0) pic[tangram] {square}
