@@ -6,7 +6,7 @@
 - [ ] Pirates Place value
 - [X] [Pi-rate walk](./pi-rateWalk)
 - [ ] Tangram ocean (in our small sets, the large isoceles right triangle has a leg of 7cm, and the small square has an edge of 3.5cm)
-- [ ] Pirates of the Future
+- [X] [Pirates of the Future](./robots)
 - [X] [Number Munchers](./videoGames)
 - [X] [Pirate Pizza](./pizza) Drafted by Snapp - (needs worksheets)
 - [X] [Nim](./nim) Just needs pieces from math outreach.
