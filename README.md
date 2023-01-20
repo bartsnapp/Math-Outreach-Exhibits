@@ -1,9 +1,9 @@
 # Math-Outreach-Exhibits
 
 - [X] [Slide (off the plank) Rule](./sliderules)
-- [ ] X marks the spot
+- [X] [X marks the spot](./graphing)
 - [X] [Look at me Gems](./eulerCharacteristic) (needs worksheets, polyhedra from math outreach)
-- [ ] Pirates Place value
+- [X] [Pirates Place value](./placeValue)
 - [X] [Pi-rate walk](./pi-rateWalk)
 - [X] [Tangram ocean](./tangrams) (in our small sets, the large isoceles right triangle has a leg of 7cm, and the small square has an edge of 3.5cm)
 - [X] [Pirates of the Future](./robots)
