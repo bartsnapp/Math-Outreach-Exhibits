@@ -1,0 +1,59 @@
+\documentclass{../exhibit}
+
+\title{Carousing with Pirates}
+
+\input{../pirate.sty}
+
+\begin{document}
+
+\begin{context}
+  Avast, me hearties! Today I was stackin' me cups and noticed somethin' peculiar. The number o' cups I was stackin' seemed t' follow a pattern. At first, I thought it was just me imagination, but the more I stacked, the more pattterns I saw!
+\end{context}
+
+\begin{directions}
+  You will play a stacking game with lots of cups.
+
+  Count how many cups are in triangular stacks that are 2, 3, 4 (and so on) high.
+
+  Look for patterns!
+\end{directions}
+
+\begin{example}
+
+\begin{tikzpicture}
+\foreach \i in {1,...,3} {
+    \foreach \j in {1,...,\i} {
+        \filldraw ({\j-\i/2},-\i*0.7) circle (6pt);
+    }
+}
+\end{tikzpicture}
+\hfill
+\begin{tikzpicture}
+\foreach \i in {1,...,4} {
+    \foreach \j in {1,...,\i} {
+        \filldraw ({\j-\i/2},-\i*0.7) circle (6pt);
+    }
+}
+\end{tikzpicture}
+\hfill
+\begin{tikzpicture}
+\foreach \i in {1,...,5} {
+    \foreach \j in {1,...,\i} {
+        \filldraw ({\j-\i/2},-\i*0.7) circle (6pt);
+    }
+}
+\end{tikzpicture}
+\hfill
+\begin{tikzpicture}
+\foreach \i in {1,...,6} {
+    \foreach \j in {1,...,\i} {
+        \filldraw ({\j-\i/2},-\i*0.7) circle (6pt);
+    }
+}
+\end{tikzpicture}
+\end{example}
+
+\begin{mathConnections}
+  https://bartsnapp.github.io/Math-Outreach-Exhibits/videoGames/
+\end{mathConnections}
+\end{document}
