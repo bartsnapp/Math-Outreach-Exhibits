@@ -17,7 +17,7 @@
 - [ ] Pirates Logic
 - [X] [Pirate Map Mazes](./mazes) - need worksheets
 - [X] [Pirates’ Plunder](./towersOfHanoi) - needs manipulatives (in outreach)
-- [ ] Battleship
+- [X] [Battleship](./battleship)
 - [ ] Pirate Chains
 - [X] [Queens Room](./chess) We have pieces and boards in math outreach
 - [/] [Dead Reckoning](./deadRecoking) Snapp is working on it
