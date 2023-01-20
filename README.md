@@ -10,7 +10,7 @@
 - [X] [Number Munchers](./videoGames)
 - [X] [Pirate Pizza](./pizza) Drafted by Snapp - (needs worksheets)
 - [X] [Nim](./nim) Just needs pieces from math outreach.
-- [ ] “What Be Ye Craving?”
+- [X] [“What Be Ye Craving?”](./store)
 - [X] [Count me Dubloons](./count) (Guessin’ me Loot, needs cards)
 - [X] [Carousing with Pirates](./cupStacking)
 - [X] [Pirates Crossing Conundrum](./riverCrossing)
@@ -18,7 +18,7 @@
 - [X] [Pirate Map Mazes](./mazes) - need worksheets
 - [X] [Pirates’ Plunder](./towersOfHanoi) - needs manipulatives (in outreach)
 - [X] [Battleship](./battleship)
-- [ ] Pirate Chains
+- [X] [Pirate Chains](./arithmeticChain)
 - [X] [Queens Room](./chess) We have pieces and boards in math outreach
 - [/] [Dead Reckoning](./deadRecoking) Snapp is working on it
 - [X] [“Hop along, matey!”](./skipCounting)
