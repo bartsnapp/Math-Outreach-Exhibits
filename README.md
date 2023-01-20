@@ -14,7 +14,7 @@
 - [X] [Count me Dubloons](./count) (Guessin’ me Loot, needs cards)
 - [X] [Carousing with Pirates](./cupStacking)
 - [X] [Pirates Crossing Conundrum](./riverCrossing)
-- [ ] Pirates Logic
+- [X] [Pirates Puzzle Chest](./matrixRiddles)
 - [X] [Pirate Map Mazes](./mazes) - need worksheets
 - [X] [Pirates’ Plunder](./towersOfHanoi) - needs manipulatives (in outreach)
 - [X] [Battleship](./battleship)
