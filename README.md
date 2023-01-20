@@ -13,7 +13,7 @@
 - [ ] “What Be Ye Craving?”
 - [X] [Count me Dubloons](./count) (Guessin’ me Loot, needs cards)
 - [X] [Carousing with Pirates](./cupStacking)
-- [ ] Pirates Crossing Conundrum
+- [X] [Pirates Crossing Conundrum](./riverCrossing)
 - [ ] Pirates Logic
 - [X] [Pirate Map Mazes](./mazes) - need worksheets
 - [X] [Pirates’ Plunder](./towersOfHanoi) - needs manipulatives (in outreach)
