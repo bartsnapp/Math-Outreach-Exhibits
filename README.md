@@ -1,7 +1,7 @@
 # Math-Outreach-Exhibits
 
 - [X] [Slide (off the plank) Rule](./sliderules)
-- [X] [X marks the spot](./graphing)
+- [X] [X marks the spot](./graphing) POSTER Could use example
 - [X] [Look at me Gems](./eulerCharacteristic) (needs worksheets, polyhedra from math outreach)
 - [X] [Pirates Place value](./placeValue)
 - [X] [Pi-rate walk](./pi-rateWalk)
