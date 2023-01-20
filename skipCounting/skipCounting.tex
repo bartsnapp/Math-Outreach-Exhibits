@@ -1,0 +1,39 @@
+\documentclass{../exhibit}
+
+\title{Hop Along, Matey!}
+
+\input{../pirate.sty}
+
+\begin{document}
+
+\begin{context}
+Are ye tired of counting yer treasure one by one? Well, have no fear, for I have a secret technique for ye to speed up yer counting. It's called \textbf{skip counting!}
+\end{context}
+
+\begin{directions}
+There will be tape on the floor marking out numbers.
+
+Try hopping over every other number to count 1, 3, 5, 7, \ldots
+
+Or try hopping onto every third number to count 1, 4, 7, 10, \ldots
+
+\end{directions}
+
+\begin{example}
+\begin{tikzpicture}
+
+\foreach \x in {1,2,3,...,20} {
+    \filldraw (\x,0) circle (2pt);
+    \node[below] at (\x,0) {\x};
+}
+\foreach \x in {1,4,7,...,16} {
+  \draw [thick] (\x,0.2) edge [in=110,out=70] ({\x+3},0.2);
+}
+
+\end{tikzpicture}
+\end{example}
+
+\begin{mathConnections}
+  https://bartsnapp.github.io/Math-Outreach-Exhibits/skipCounting/
+\end{mathConnections}
+\end{document}

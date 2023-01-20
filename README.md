@@ -21,7 +21,7 @@
 - [ ] Pirate Chains
 - [X] [Queens Room](./chess) We have pieces and boards in math outreach
 - [/] [Dead Reckoning](./deadRecoking) Snapp is working on it
-- [ ] “Hop along, matey!”
+- [X] [“Hop along, matey!”](./skipCounting)
 - [ ] [Pirate Dice](./dice) Need dice and cups!
 - [X] [Welcome Table](./welcomeTable)
 - [X] [Library table](./libraryTable)
