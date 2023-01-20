@@ -1,6 +1,6 @@
 # Math-Outreach-Exhibits
 
-- [ ] Slide (off the plank) Rule
+- [X] [Slide (off the plank) Rule](./sliderules)
 - [ ] X marks the spot
 - [X] [Look at me Gems](./eulerCharacteristic) (needs worksheets, polyhedra from math outreach)
 - [ ] Pirates Place value
