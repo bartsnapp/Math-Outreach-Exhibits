@@ -2,7 +2,7 @@
 
 - [X] [Slide (off the plank) Rule](./sliderules)
 - [X] [X marks the spot](./graphing) POSTER Could use example
-- [X] [Look at me Gems](./eulerCharacteristic) (needs worksheets, polyhedra from math outreach)
+- [X] [Look at me Gems](./eulerCharacteristic) POSTER DONE:(needs worksheets, polyhedra from math outreach)
 - [X] [Pirates Place value](./placeValue)
 - [X] [Pi-rate walk](./pi-rateWalk)
 - [X] [Tangram ocean](./tangrams) (in our small sets, the large isoceles right triangle has a leg of 7cm, and the small square has an edge of 3.5cm)
@@ -14,7 +14,7 @@
 - [X] [Count me Dubloons](./count) POSTER DONE: Needs cards
 - [X] [Carousing with Pirates](./cupStacking) POSTER DONE: Needs cups and paper/pencils
 - [X] [Pirates Crossing Conundrum](./riverCrossing)
-- [X] [Pirates Puzzle Chest](./matrixRiddles)
+- [X] [Pirates Puzzle Chest](./matrixRiddles) POSTER DONE: Needs worksheets
 - [X] [Pirate Map Mazes](./mazes) - need worksheets
 - [X] [Pirates’ Plunder](./towersOfHanoi) - needs manipulatives (in outreach)
 - [X] [Battleship](./battleship) POSTER DONE: Needs README and Game
@@ -24,4 +24,4 @@
 - [X] [“Hop along, matey!”](./skipCounting)
 - [ ] [Pirate Dice](./dice) Need dice and cups!
 - [X] [Welcome Table](./welcomeTable)
-- [X] [Library table](./libraryTable)
+- [X] [Library table](./libraryTable) POSTER DONE

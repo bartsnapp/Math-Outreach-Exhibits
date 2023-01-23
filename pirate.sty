@@ -49,9 +49,18 @@ contents={%
 \usepackage{chessfss}
 
 
+%% for matrix riddles
+\usepackage{multirow}
+\usepackage{array}
+\usepackage[most]{tcolorbox}
+\newlength{\logpuzzlecellwidth}
+\setlength{\logpuzzlecellwidth}{0.5cm}
+\newcolumntype{A}[1]{>{\centering\arraybackslash}m{#1}}
+
+
+
 
 %% for dead reckoning
-
 \tikzset{
   compass/.pic = {
     \foreach[count=\i,evaluate={\m=div(\i-1,4);\a=90*\i-45*(\m+1)}] \d in {NE,NW,SW,SE,E,N,W,S}{

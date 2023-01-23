@@ -4,23 +4,53 @@
 
 \input{../pirate.sty}
 
+
 \begin{document}
 
 
 \begin{context}
-These \textbf{matrix riddles} were like a map leadin' me to a greater understanding of the way logic works together. And with this newfound knowledge, my crew and I can now navigate through any challenge that comes our way!
+These \textsc{matrix riddles} were are boggling me brain.
+\\[1cm]
+Help me solve these mysteries of the sea!
 \end{context}
 
 \begin{directions}
-  You will have fun working on different puzzles that have a pirate theme.
-
-  These puzzles look like grids.
-
-  You will solve these puzzles by filling in the blank spaces as you
-deduce the possibilities.
+  \begin{itemize}
+  \item Use a grid to store information.
+  \item The more information your record, the more you can deduce.
+  \item Solve these puzzles by completing the banks in the grid.
+  \end{itemize}
 \end{directions}
 
 \begin{example}
+  \begin{center}
+  \begin{tabular}{|>{\vphantom{X}}l|l|*{10}{A{\logpuzzlecellwidth}|}}
+  \multicolumn{1}{c}{}  & \multicolumn{1}{c}{} & \multicolumn{5}{|c|}{Captains} & \multicolumn{5}{c|}{Ships} \tabularnewline[1ex]
+  \cline{3-12}
+\multicolumn{1}{c}{} & \multicolumn{1}{c|}{} & \rotatebox{90}{Artin} & \rotatebox{90}{Bourbaki} & \rotatebox{90}{Cauchy}  & \rotatebox{90}{DeMorgan} & \rotatebox{90}{Euler} & \rotatebox{90}{A} & \rotatebox{90}{B} & \rotatebox{90}{C}  & \rotatebox{90}{D} & \rotatebox{90}{E}  \tabularnewline
+\hline
+\multirow{6}{*}{\rotatebox{90}{Schooners}}  & A & & & & & & & & & & \tabularnewline
+  \cline{2-12}
+  & B & & & & & & & & & & \tabularnewline  
+  \cline{2-12}
+  & C & & & & & & & & & & \tabularnewline
+  \cline{2-12}
+  & D & & & & & & & & & & \tabularnewline
+  \cline{2-12}
+  & E & & X & & & & & & & & \tabularnewline
+\hline
+\multirow{6}{*}{\rotatebox{90}{Brigantines}}  & A & & & & & & \multicolumn{5}{c}{} \tabularnewline
+  \cline{2-7}
+  & B & & & & & & \multicolumn{5}{c}{} \tabularnewline
+  \cline{2-7}
+  & C & & & & & X & \multicolumn{5}{c}{} \tabularnewline
+  \cline{2-7}
+  & D & & & & & & \multicolumn{5}{c}{} \tabularnewline
+  \cline{2-7}
+  & E & & & & & & \multicolumn{5}{c}{} \tabularnewline
+  \cline{1-7}
+  \end{tabular}
+  \end{center}
 \end{example}
 
 \begin{mathConnections}
