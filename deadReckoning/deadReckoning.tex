@@ -15,7 +15,9 @@
   \vspace{1cm}
 
   
-  Help me feed me crew, and I can help ye find me treasure!
+  Prove you're a old seadog like me, help me navigate me ship!
+
+
 \end{context}
 
 
@@ -23,19 +25,23 @@
 \begin{directions}
   \begin{itemize}
   \item Start at the ``X''.
-  \item Use the BLAH to point in the right direction
-    \item Use the ruler to blah....
+  \item Use the compass rose to find the direction.
+  \item Use the ruler to plot your path.
   \end{itemize}
   
 \end{directions}
 
 
 
-\begin{example}
-  Our ship travels $5$ miles for every hour. If we travel: GIVE CARDNAL DIRECTIONs (North, West, East, South, North-East, etc. 
+\begin{example}%%https://www.nicepng.com/downpng/u2r5w7a9y3q8q8u2_pirates-of-the-caribbean-ship-png-clipart-jack/
+  Our ship travels 2 days East, 1 day South, 3 days North East. Where are we?
 \begin{center}
   \begin{tikzpicture}
-  \draw[step=1.0in,black,ultra thick] (0,0) grid (4in,3in);
+    \pic[scale=.5] at (0,2in) {compass};
+    \node[left] at (0,0) {\scalebox{2}{X}};
+    
+    \draw[step=2.0in,black,ultra thick,dashed] (0,0) -- (2in,0in) -- (2in,-1in) -- (5in,2in);
+    \node[above right] at (5in,2in) {\scalebox{-1}[1]{\includegraphics[width=1in]{pirateship.png}}};
 \end{tikzpicture}
 \end{center}
 \end{example}
@@ -43,6 +49,6 @@
 
 
 \begin{mathConnections}
-  QR CODE?
+    https://bartsnapp.github.io/Math-Outreach-Exhibits/deadReckoning/
 \end{mathConnections}
 \end{document}

@@ -49,6 +49,29 @@ contents={%
 \usepackage{chessfss}
 
 
+%% for matrix riddles
+\usepackage{multirow}
+\usepackage{array}
+\usepackage[most]{tcolorbox}
+\newlength{\logpuzzlecellwidth}
+\setlength{\logpuzzlecellwidth}{0.5cm}
+\newcolumntype{A}[1]{>{\centering\arraybackslash}m{#1}}
+
+
+
+
+%% for dead reckoning
+\tikzset{
+  compass/.pic = {
+    \foreach[count=\i,evaluate={\m=div(\i-1,4);\a=90*\i-45*(\m+1)}] \d in {NE,NW,SW,SE,E,N,W,S}{
+      \filldraw[pic actions,rotate=\a,scale=.7+.3*\m] (0,0) -- (45:1)--(0:3) node[transform shape,rotate=-90,above]{\d};
+      \filldraw[pic actions,fill=white,rotate=\a,scale=.7+.3*\m] (0,0) -- (-45:1)--(0:3)--cycle;
+    };
+  }
+}
+
+
+
 
 %% for tangrams
 %\url{https://tex.stackexchange.com/q/407449/86}

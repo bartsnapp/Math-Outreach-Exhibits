@@ -1,0 +1,18 @@
+\documentclass[tikz,border=7pt]{standalone}
+%% Font
+\usepackage{imfellEnglish}
+\usepackage[T1]{fontenc}
+%% https://tex.stackexchange.com/questions/424605/tikz-pic-with-sub-pics-wont-scale
+\tikzset{
+  compass/.pic = {
+    \foreach[count=\i,evaluate={\m=div(\i-1,4);\a=90*\i-45*(\m+1)}] \d in {NE,NW,SW,SE,E,N,W,S}{
+      \filldraw[pic actions,rotate=\a,scale=.7+.3*\m] (0,0) -- (45:1)--(0:3) node[transform shape,rotate=-90,above]{\d};
+      \filldraw[pic actions,fill=white,rotate=\a,scale=.7+.3*\m] (0,0) -- (-45:1)--(0:3)--cycle;
+    };
+  }
+}
+\begin{document}
+  \begin{tikzpicture}
+    \pic{compass};
+  \end{tikzpicture}
+\end{document}
