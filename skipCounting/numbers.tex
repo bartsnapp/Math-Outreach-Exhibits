@@ -1,0 +1,31 @@
+\documentclass{article} % 24pt font size (you can adjust this as needed)
+\usepackage{graphicx}
+\usepackage{imfellEnglish}
+\usepackage[T1]{fontenc}
+\usepackage{fullpage}
+\usepackage{pgffor}
+
+
+\newenvironment{absolutelynopagebreak}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
+
+
+\begin{document}
+\pagenumbering{gobble}
+
+% Loop to generate pages with numbers
+\foreach \pagenumber in {1,...,24}{
+  \begin{absolutelynopagebreak}
+
+    \hspace{0em}\vfill
+
+
+    \centerline{
+    \resizebox{\textwidth}{.7\textheight}{\Huge\bfseries \pagenumber}
+  }
+\end{absolutelynopagebreak}
+}
+\end{document}
