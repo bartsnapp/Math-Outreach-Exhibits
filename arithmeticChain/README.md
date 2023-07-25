@@ -1,6 +1,4 @@
 # Pirate Chains
 
-This is for the template.
+Here we see how many arithmetic problems we can solve. Arithmetic is at the beginning of mathematics. By "chaining" more and more concepts together, we are able to stretch our minds a great distance. 
 
-
-For more information, see: [Rectangular Fraction Model](https://hvparent.com/common-core-math-part-four)
