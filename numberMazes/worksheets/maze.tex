@@ -1,0 +1,230 @@
+\documentclass{article}
+
+%% Ben Szczesny came up with this
+
+\usepackage{imfellEnglish}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+
+\usepackage[landscape,margin=1cm]{geometry}
+
+\begin{document}\pagenumbering{gobble}
+\Huge
+Maze 0 Rule: The total path must add up to 5
+
+\begin{center}
+  \begin{tikzpicture}[scale=1.7]
+    \draw[step=1.0in,black,ultra thick] (0,0) grid (4in,4in);
+    \node at (0.5in,3.5in) {START};
+    \node at (1.5in,3.5in) {\resizebox{!}{.8in}{1}};
+    \node at (2.5in,3.5in) {\resizebox{!}{.8in}{1}};
+    \node at (3.5in,3.5in) {\resizebox{!}{.8in}{1}};
+
+    \node at (0.5in,2.5in) {\resizebox{!}{.8in}{1}};
+    \node at (1.5in,2.5in) {\resizebox{!}{.8in}{1}};
+    \node at (2.5in,2.5in) {\resizebox{!}{.8in}{1}};
+    \node at (3.5in,2.5in) {\includegraphics[height=1in]{skullBones.png}};
+
+    \node at (0.5in,1.5in) {\resizebox{!}{.8in}{1}};
+    \node at (1.5in,1.5in) {\includegraphics[height=1in]{skullBones.png}};
+    \node at (2.5in,1.5in) {\resizebox{!}{.8in}{1}};
+    \node at (3.5in,1.5in) {\resizebox{!}{.8in}{1}};
+
+    \node at (0.5in,0.5in) {\resizebox{!}{.8in}{1}};
+    \node at (1.5in,0.5in) {\includegraphics[height=1in]{skullBones.png}};
+    \node at (2.5in,0.5in) {\includegraphics[height=1in]{skullBones.png}};
+    \node at (3.5in,0.5in) {FINISH};
+    
+  \end{tikzpicture}
+\end{center}
+
+\newpage
+Maze 1 Rule: Each straight walk must add to exactly 3
+
+\begin{center}
+  \begin{tikzpicture}[scale=1.7]
+    \draw[step=1.0in,black,ultra thick] (0,0) grid (4in,4in);
+    \node at (0.5in,3.5in) {\resizebox{!}{.8in}{1}};
+    \node at (1.5in,3.5in) {\resizebox{!}{.8in}{1}};
+    \node at (2.5in,3.5in) {\resizebox{!}{.8in}{2}};
+    \node at (3.5in,3.5in) {FINISH};
+
+    \node at (0.5in,2.5in) {\resizebox{!}{.8in}{1}};
+    \node at (1.5in,2.5in) {\resizebox{!}{.8in}{2}};
+    \node at (2.5in,2.5in) {\resizebox{!}{.8in}{1}};
+    \node at (3.5in,2.5in) {\resizebox{!}{.8in}{0}};
+
+    \node at (0.5in,1.5in) {\resizebox{!}{.8in}{2}};
+    \node at (1.5in,1.5in) {\resizebox{!}{.8in}{1}};
+    \node at (2.5in,1.5in) {\includegraphics[height=1in]{skullBones.png}};
+    \node at (3.5in,1.5in) {\resizebox{!}{.8in}{1}};
+
+    \node at (0.5in,0.5in) {START};
+    \node at (1.5in,0.5in) {\resizebox{!}{.8in}{2}};
+    \node at (2.5in,0.5in) {\resizebox{!}{.8in}{1}};
+    \node at (3.5in,0.5in) {\resizebox{!}{.8in}{2}};
+    
+    
+  \end{tikzpicture}
+\end{center}
+
+
+\newpage
+Maze 2 Rule: Each straight walk must add to exactly 4
+
+\begin{center}
+  \begin{tikzpicture}[scale=1.7]
+    \draw[step=1.0in,black,ultra thick] (0,0) grid (4in,4in);
+
+    \node at (0.5in,3.5in) {START};
+    \node at (1.5in,3.5in) {\resizebox{!}{.8in}{1}};
+    \node at (2.5in,3.5in) {\resizebox{!}{.8in}{3}};
+    \node at (3.5in,3.5in) {\resizebox{!}{.8in}{1}};
+    
+
+    \node at (0.5in,2.5in) {\resizebox{!}{.8in}{2}};
+    \node at (1.5in,2.5in) {\resizebox{!}{.8in}{2}};
+    \node at (2.5in,2.5in) {\includegraphics[height=1in]{skullBones.png}};
+    \node at (3.5in,2.5in) {\resizebox{!}{.8in}{2}};
+
+    \node at (0.5in,1.5in) {\resizebox{!}{.8in}{2}};
+    \node at (1.5in,1.5in) {\resizebox{!}{.8in}{1}};
+    \node at (2.5in,1.5in) {\resizebox{!}{.8in}{1}};
+    \node at (3.5in,1.5in) {\resizebox{!}{.8in}{1}};
+
+
+    \node at (0.5in,0.5in) {\resizebox{!}{.8in}{2}};
+    \node at (1.5in,0.5in) {\resizebox{!}{.8in}{2}};
+    \node at (2.5in,0.5in) {\resizebox{!}{.8in}{3}};
+    \node at (3.5in,0.5in) {FINISH};    
+    
+  \end{tikzpicture}
+\end{center}
+
+
+
+
+\newpage
+Maze 3 Rule: Each straight walk must be a multiple of 2
+
+\begin{center}
+  \begin{tikzpicture}[scale=1.7]
+    \draw[step=1.0in,black,ultra thick] (0,0) grid (4in,4in);
+
+    \node at (0.5in,3.5in) {START};
+    \node at (1.5in,3.5in) {\resizebox{!}{.8in}{2}};
+    \node at (2.5in,3.5in) {\resizebox{!}{.8in}{2}};
+    \node at (3.5in,3.5in) {\resizebox{!}{.8in}{2}};
+    
+
+    \node at (0.5in,2.5in) {\resizebox{!}{.8in}{2}};
+    \node at (1.5in,2.5in) {\includegraphics[height=1in]{skullBones.png}};
+    \node at (2.5in,2.5in) {\resizebox{!}{.8in}{0}};
+    \node at (3.5in,2.5in) {\resizebox{!}{.8in}{3}};
+
+    \node at (0.5in,1.5in) {\resizebox{!}{.8in}{1}};
+    \node at (1.5in,1.5in) {\resizebox{!}{.8in}{3}};
+    \node at (2.5in,1.5in) {\resizebox{!}{.8in}{1}};
+    \node at (3.5in,1.5in) {\resizebox{!}{.8in}{2}};
+
+
+    \node at (0.5in,0.5in) {\resizebox{!}{.8in}{1}};
+    \node at (1.5in,0.5in) {\resizebox{!}{.8in}{1}};
+    \node at (2.5in,0.5in) {\includegraphics[height=1in]{skullBones.png}};
+    \node at (3.5in,0.5in) {FINISH};    
+    
+  \end{tikzpicture}
+\end{center}
+
+
+\newpage
+Maze 4 Rule: Each straight walk must add up to 8
+
+\begin{center}
+  \begin{tikzpicture}[scale=1.5]
+    \draw[step=1.0in,black,ultra thick] (0,0) grid (6in,4in);
+
+    \node at (0.5in,3.5in) {START};
+    \node at (1.5in,3.5in) {\resizebox{!}{.8in}{4}};
+    \node at (2.5in,3.5in) {\resizebox{!}{.8in}{4}};
+    \node at (3.5in,3.5in) {\resizebox{!}{.8in}{1}};
+    \node at (4.5in,3.5in) {\resizebox{!}{.8in}{5}};
+    \node at (5.5in,3.5in) {\includegraphics[height=1in]{skullBones.png}};
+    
+
+    \node at (0.5in,2.5in) {\resizebox{!}{.8in}{2}};
+    \node at (1.5in,2.5in) {\resizebox{!}{.8in}{1}};
+    \node at (2.5in,2.5in) {\resizebox{!}{.8in}{2}};
+    \node at (3.5in,2.5in) {\includegraphics[height=1in]{skullBones.png}};
+    \node at (4.5in,2.5in) {\resizebox{!}{.8in}{1}};
+    \node at (5.5in,2.5in) {\resizebox{!}{.8in}{5}};
+
+    \node at (0.5in,1.5in) {\resizebox{!}{.8in}{2}};
+    \node at (1.5in,1.5in) {\includegraphics[height=1in]{skullBones.png}};
+    \node at (2.5in,1.5in) {\resizebox{!}{.8in}{2}};
+    \node at (3.5in,1.5in) {\resizebox{!}{.8in}{3}};
+    \node at (4.5in,1.5in) {\resizebox{!}{.8in}{3}};
+    \node at (5.5in,1.5in) {\resizebox{!}{.8in}{4}};
+
+
+    \node at (0.5in,0.5in) {\resizebox{!}{.8in}{4}};
+    \node at (1.5in,0.5in) {\resizebox{!}{.8in}{3}};
+    \node at (2.5in,0.5in) {\resizebox{!}{.8in}{2}};
+    \node at (3.5in,0.5in) {\resizebox{!}{.8in}{1}};
+    \node at (4.5in,0.5in) {\resizebox{!}{.8in}{5}};
+    \node at (5.5in,0.5in) {FINISH};   
+  \end{tikzpicture}
+\end{center}
+
+
+
+\newpage
+
+Maze 5 Rule: The path cannot walk over a multiple of 3
+
+\begin{center}
+  \begin{tikzpicture}[scale=1.5]
+    \draw[step=1.0in,black,ultra thick] (0,0) grid (6in,4in);
+
+    \node at (0.5in,3.5in) {START};
+    \node at (1.5in,3.5in) {\resizebox{!}{.8in}{2}};
+    \node at (2.5in,3.5in) {\resizebox{!}{.8in}{5}};
+    \node at (3.5in,3.5in) {\resizebox{!}{.8in}{9}};
+    \node at (4.5in,3.5in) {\resizebox{!}{.8in}{2}};
+    \node at (5.5in,3.5in) {\resizebox{!}{.8in}{4}};
+       
+
+    \node at (0.5in,2.5in) {\resizebox{!}{.8in}{2}};
+    \node at (1.5in,2.5in) {\includegraphics[height=1in]{skullBones.png}};
+    \node at (2.5in,2.5in) {\resizebox{!}{.8in}{6}};
+    \node at (3.5in,2.5in) {\resizebox{!}{.8in}{1}};
+    \node at (4.5in,2.5in) {\includegraphics[height=1in]{skullBones.png}};
+    \node at (5.5in,2.5in) {\resizebox{!}{.8in}{5}};
+
+    \node at (0.5in,1.5in) {\resizebox{!}{.8in}{1}};
+    \node at (1.5in,1.5in) {\resizebox{!}{.8in}{4}};
+    \node at (2.5in,1.5in) {\resizebox{!}{.8in}{5}};
+    \node at (3.5in,1.5in) {\resizebox{!}{.8in}{8}};
+    \node at (4.5in,1.5in) {\resizebox{!}{.8in}{5}};
+    \node at (5.5in,1.5in) {\resizebox{!}{.8in}{6}};
+
+
+    \node at (0.5in,0.5in) {\resizebox{!}{.8in}{1}};
+    \node at (1.5in,0.5in) {\includegraphics[height=1in]{skullBones.png}};
+    \node at (2.5in,0.5in) {\resizebox{!}{.8in}{2}};
+    \node at (3.5in,0.5in) {\resizebox{!}{.8in}{6}};
+    \node at (4.5in,0.5in) {\resizebox{!}{.8in}{1}};
+    \node at (5.5in,0.5in) {FINISH};   
+  \end{tikzpicture}
+\end{center}
+
+
+
+
+
+
+
+
+\end{document}
