@@ -1,19 +1,18 @@
-# Computers
-
-Here we give a coloring-book computer. This was developed here:
-
-https://ipfs.io/ipfs/QmYz7DPRWypGQcbAHr7Mi8EKB6ntSPsEnUsCXbAhBiHQZP/
-
-In essence "nory" is a NOR gate, meaning a neither-nor gate.  You can
-think of a NOR gate as a gate that only produces a true output (a
-rectangle) when both of its inputs are false (circles). If either
-input is true (is rectangle), the output is false (a circle).
+# Einstein Tiling and the Four Color Theorem
 
 
-The cool thing about NOR gates is that you can use them to make all
-the other gates in a computer, like AND gates and OR gates. It's like
-having one super useful tool that can do many jobs! So, you can think
-of NOR gates as the building blocks that make computers work.
+Most of the mathematics one learns in school is very old. Here we
+present some new findings that are really accessible all.
 
 
-For more information, see: [NOR gate](https://en.wikipedia.org/wiki/NOR_gate)
+The einstein tiling (so-called because "einstein" means "one stone") is a tiling with no "repeated pattern" that is made from 1 tile. Before 2023, humans didn't even know if something liked this existed. 
+
+
+On the other hand, the four color theorem says that pictures like
+these require only four colors to fill in, assuming we must have
+different colors for different regions.
+
+
+For more information, see: 
+[Einstein problem](https://en.wikipedia.org/wiki/Einstein_problem)
+[Four color theorem](https://en.wikipedia.org/wiki/Four_color_theorem)
