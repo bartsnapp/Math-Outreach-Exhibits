@@ -1,13 +1,17 @@
-# Counting Coins
-
-This activity is about recognizing multiples of numbers to assist in
-counting.
-
-While it can start off quite simple, it actually demonstrates an
-important principle in number theory and algebra: By looking at the
-remainder of a number with various quotients, we can identify the
-number itself. This is sometimes called the Sunzi Theorem.
+# Counting Cards
 
 
-For more information, see: [Sunzi Theorem](https://en.wikipedia.org/wiki/Chinese_remainder_theorem)
+This activity is about grouping. We use the given grouping to help us
+quickly identity the number in question.
+
+
+A common theme in mathematics is that we if group things, we can make
+problems more manageable.
+
+This can be thought of as a pure counting activity, an
+adding/subtracting activity, or an activity about
+multiplication/division.
+
+
+For more information, see: [8 Tips for Learning to Count Groups of Things](https://dreme.stanford.edu/news/8-tips-learning-count-groups-things)
 
