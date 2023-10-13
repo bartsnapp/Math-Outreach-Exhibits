@@ -1,0 +1,69 @@
+\documentclass{article}
+
+\usepackage{imfellEnglish}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+
+\usepackage[landscape,margin=1cm]{geometry}
+
+\begin{document}\pagenumbering{gobble}
+\Huge
+The 2 coin puzzle:
+
+\vfill
+
+\begin{center}
+    \begin{tikzpicture}[x=4cm, y=4cm]
+      \foreach \x in {1,...,3} {
+        \draw[line width=5pt] (\x-1,0) rectangle (\x ,1);
+      }
+    \end{tikzpicture}
+
+
+\end{center}
+
+\vfill
+
+\newpage
+
+
+
+The 4 coin puzzle:
+
+\vfill
+
+\begin{center}
+    \begin{tikzpicture}[x=4cm, y=4cm]
+      \foreach \x in {1,...,5} {
+        \draw[line width=5pt] (\x-1,0) rectangle (\x ,1);
+      }
+    \end{tikzpicture}
+
+
+\end{center}
+
+
+\vfill
+
+\newpage
+
+The 6 coin puzzle:
+
+\vfill
+
+\begin{center}
+    \begin{tikzpicture}[x=3.5cm, y=3.5cm]
+      \foreach \x in {1,...,7} {
+        \draw[line width=5pt] (\x-1,0) rectangle (\x ,1);
+      }
+
+\end{tikzpicture}
+
+
+\end{center}
+
+\vfill
+
+\end{document}
