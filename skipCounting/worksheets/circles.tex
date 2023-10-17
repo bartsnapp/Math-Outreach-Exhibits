@@ -1,0 +1,73 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{imfellEnglish}
+\usepackage[T1]{fontenc}
+\usepackage[landscape,margin=1cm]{geometry}
+
+
+
+\begin{document}\pagenumbering{gobble}\Huge
+
+
+\begin{center}
+\begin{tikzpicture}
+  % Define the number of nodes and the radius of the circle
+  \def\radius{9cm}
+  \def\n{7}
+  % Draw the circle
+  \draw[ultra thick] (0, 0) circle (\radius);
+  
+  % Place the nodes and label them
+  \foreach \i in {1,...,\n} {
+    \node[circle, draw, fill=white, ultra thick,inner sep=2pt] (node\i) at ({90-360/\n * (\i)}:\radius) {\i};
+  }
+\end{tikzpicture}
+\end{center}
+
+\newpage
+
+
+\begin{center}
+\begin{tikzpicture}
+  % Define the number of nodes and the radius of the circle
+  \def\radius{9cm}
+  \def\n{11}
+  % Draw the circle
+  \draw[ultra thick] (0, 0) circle (\radius);
+  
+  % Place the nodes and label them
+  \foreach \i in {1,...,\n} {
+    \node[circle, draw, fill=white, ultra thick,inner sep=2pt] (node\i) at ({90-360/\n * (\i)}:\radius) {\i};
+  }
+\end{tikzpicture}
+\end{center}
+
+\newpage
+
+
+\begin{center}
+\begin{tikzpicture}
+  % Define the number of nodes and the radius of the circle
+  \def\radius{9cm}
+  \def\n{19}
+  % Draw the circle
+  \draw[ultra thick] (0, 0) circle (\radius);
+  
+  % Place the nodes and label them
+  \foreach \i in {1,...,\n} {
+    \node[circle, draw, fill=white, ultra thick,inner sep=2pt] (node\i) at ({90-360/\n * (\i)}:\radius) {\i};
+  }
+\end{tikzpicture}
+\end{center}
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
